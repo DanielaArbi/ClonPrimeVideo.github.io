@@ -3,6 +3,9 @@ header{
     height: 80px;
    /* background-color: rgb(189, 51, 51); */
 } 
+main{
+    z-index: 1;
+}
 .cabecera{
     background-color: black;
 }
@@ -12,9 +15,7 @@ header{
     height: 60px;
 }
 
-.navigation{
-    width: 709px;
-}
+
 .list-group li a{
     text-decoration: none;
     color: white;
